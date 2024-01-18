@@ -18,6 +18,9 @@
           <router-link to="/order">주문</router-link>
         </li>
         <li>
+          <router-link to="/organization">조직도</router-link>
+        </li>
+        <li>
           <router-link to="/login" v-if="!isLoggedIn">로그인</router-link>
           <router-link to="/logout" v-else @click="logout()">로그아웃</router-link>
         </li>

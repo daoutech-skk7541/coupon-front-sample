@@ -6,6 +6,7 @@ import HomeView from "@/views/HomeView.vue";
 import userProfileRoutes from "@/router/userProfile.js";
 import orderRoutes from "@/router/order.js";
 import NotFound from "@/views/NotFound.vue";
+import organizationRoutes from "@/router/organization.js";
 
 const routes = [
     {
@@ -23,6 +24,7 @@ const routes = [
     ...productRoutes,
     ...userProfileRoutes,
     ...orderRoutes,
+    ...organizationRoutes,
     {
         path: '/:catchAll(.*)',
         name: 'not-found',
