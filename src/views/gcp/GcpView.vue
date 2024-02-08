@@ -21,7 +21,7 @@ async function handleFileUpload() {
   formData.append('file', file);
 
   try {
-    const response = await fetch('http://localhost:8080/gcp/upload', {
+    const response = await fetch('http://localhost:8080/gcp/upload/sample', {
       method: 'POST',
       body: formData
     });
