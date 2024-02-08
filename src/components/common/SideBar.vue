@@ -24,6 +24,9 @@
           <router-link to="/login" v-if="!isLoggedIn">로그인</router-link>
           <router-link to="/logout" v-else @click="logout()">로그아웃</router-link>
         </li>
+        <li>
+          <router-link to="/gcp">GCP TEST</router-link>
+        </li>
       </ul>
     </div>
   </div>

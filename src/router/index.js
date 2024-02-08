@@ -7,6 +7,7 @@ import userProfileRoutes from "@/router/userProfile.js";
 import orderRoutes from "@/router/order.js";
 import NotFound from "@/views/NotFound.vue";
 import organizationRoutes from "@/router/organization.js";
+import gcpRoutes from "@/router/gcp.js";
 
 const routes = [
     {
@@ -25,6 +26,7 @@ const routes = [
     ...userProfileRoutes,
     ...orderRoutes,
     ...organizationRoutes,
+    ...gcpRoutes,
     {
         path: '/:catchAll(.*)',
         name: 'not-found',
