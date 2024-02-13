@@ -27,6 +27,9 @@
         <li>
           <router-link to="/gcp">GCP TEST</router-link>
         </li>
+        <li>
+          <router-link to="/drag-and-drop">Drag And Drop Sample</router-link>
+        </li>
       </ul>
     </div>
   </div>

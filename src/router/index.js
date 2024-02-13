@@ -8,6 +8,7 @@ import orderRoutes from "@/router/order.js";
 import NotFound from "@/views/NotFound.vue";
 import organizationRoutes from "@/router/organization.js";
 import gcpRoutes from "@/router/gcp.js";
+import dragAndDropRoutes from "@/router/drag-and-drop.js";
 
 const routes = [
     {
@@ -27,6 +28,7 @@ const routes = [
     ...orderRoutes,
     ...organizationRoutes,
     ...gcpRoutes,
+    ...dragAndDropRoutes,
     {
         path: '/:catchAll(.*)',
         name: 'not-found',
