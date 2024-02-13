@@ -36,6 +36,9 @@
         <li>
           <router-link to="/modal-example">Modal EXAMPLE</router-link>
         </li>
+        <li>
+          <router-link to="/quill-editor-example">Quill Editor</router-link>
+        </li>
       </ul>
     </div>
   </div>

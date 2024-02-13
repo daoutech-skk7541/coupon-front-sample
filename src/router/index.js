@@ -11,6 +11,7 @@ import gcpRoutes from "@/router/gcp.js";
 import dragAndDropRoutes from "@/router/drag-and-drop.js";
 import chartExampleRoutes from "@/router/chart-example.js";
 import modalExampleView from "@/router/modal-example.js";
+import quillEditorExample from "@/router/quill-editor-example.js";
 
 const routes = [
     {
@@ -33,6 +34,7 @@ const routes = [
     ...dragAndDropRoutes,
     ...chartExampleRoutes,
     ...modalExampleView,
+    ...quillEditorExample,
     {
         path: '/:catchAll(.*)',
         name: 'not-found',
