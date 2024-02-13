@@ -11,8 +11,16 @@ import {ref} from "vue";
 
 const series = ref([
   {
-    name: "Desktops",
-    data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
+    name: "전체 발행금액",
+    data: Array.from({ length: 9 }, () => Math.floor(Math.random() * (1000 - 100 + 1)) + 100)
+  },
+  {
+    name: "단독형 발행금액",
+    data: Array.from({ length: 9 }, () => Math.floor(Math.random() * (1000 - 100 + 1)) + 100)
+  },
+  {
+    name: "연동형 발행금액",
+    data: Array.from({ length: 9 }, () => Math.floor(Math.random() * (1000 - 100 + 1)) + 100)
   }
 ]);
 
