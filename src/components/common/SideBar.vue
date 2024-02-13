@@ -31,7 +31,10 @@
           <router-link to="/drag-and-drop">Drag And Drop Sample</router-link>
         </li>
         <li>
-          <router-link to="/chart-example">CHART EXAMPLE</router-link>
+          <router-link to="/chart-example">Chart EXAMPLE</router-link>
+        </li>
+        <li>
+          <router-link to="/modal-example">Modal EXAMPLE</router-link>
         </li>
       </ul>
     </div>

@@ -10,6 +10,7 @@ import organizationRoutes from "@/router/organization.js";
 import gcpRoutes from "@/router/gcp.js";
 import dragAndDropRoutes from "@/router/drag-and-drop.js";
 import chartExampleRoutes from "@/router/chart-example.js";
+import modalExampleView from "@/router/modal-example.js";
 
 const routes = [
     {
@@ -31,6 +32,7 @@ const routes = [
     ...gcpRoutes,
     ...dragAndDropRoutes,
     ...chartExampleRoutes,
+    ...modalExampleView,
     {
         path: '/:catchAll(.*)',
         name: 'not-found',
