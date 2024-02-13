@@ -1,3 +1,4 @@
+<!-- https://sortablejs.github.io/vue.draggable.next/#/simple -->
 <template>
   <div class="row">
     <div class="col-2">
