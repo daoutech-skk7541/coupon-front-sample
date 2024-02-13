@@ -30,6 +30,9 @@
         <li>
           <router-link to="/drag-and-drop">Drag And Drop Sample</router-link>
         </li>
+        <li>
+          <router-link to="/chart-example">CHART EXAMPLE</router-link>
+        </li>
       </ul>
     </div>
   </div>
@@ -55,10 +58,6 @@ function logout() {
   width: 200px;
   height: 100%;
   background-color: #fff;
-  border-right: 1px solid #ddd;
-  position: fixed;
-  top: 0;
-  left: 0;
   z-index: 100;
 }
 

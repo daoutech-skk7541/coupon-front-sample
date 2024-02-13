@@ -9,6 +9,7 @@ import NotFound from "@/views/NotFound.vue";
 import organizationRoutes from "@/router/organization.js";
 import gcpRoutes from "@/router/gcp.js";
 import dragAndDropRoutes from "@/router/drag-and-drop.js";
+import chartExampleRoutes from "@/router/chart-example.js";
 
 const routes = [
     {
@@ -29,6 +30,7 @@ const routes = [
     ...organizationRoutes,
     ...gcpRoutes,
     ...dragAndDropRoutes,
+    ...chartExampleRoutes,
     {
         path: '/:catchAll(.*)',
         name: 'not-found',
