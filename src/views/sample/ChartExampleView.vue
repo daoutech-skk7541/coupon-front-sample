@@ -1,3 +1,4 @@
+<!-- https://apexcharts.com/vue-chart-demos/line-charts/basic/ -->
 <template>
   <div id="chart">
     <apexcharts type="line" height="350" :options="chartOptions" :series="series"></apexcharts>
